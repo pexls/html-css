@@ -1,0 +1,26 @@
+
+.a{ background-color: white;border: solid;width: 50%;}
+#a{color: rgb(21, 45, 197);
+background-color: rgba(197, 115, 21, 0.507);}
+
+
+
+#ap, #bpb, #cp{ margin: 15px 15px 15px 15px ;}
+
+
+
+
+.b{background-color: white; border: dotted; width: 50%; height: 30%;}
+#bp{ border: rgb(197, 27, 21) dotted;
+margin: 10px 15px 20px 15px;}
+.b #b{ background-color: rgba(178, 209, 27, 0.694);}
+
+
+
+
+
+.c{ background-color: white; border: groove; width: 50%;}
+.c #cp{color: blueviolet;}
+
+.body{background-color: bisque;}
+
