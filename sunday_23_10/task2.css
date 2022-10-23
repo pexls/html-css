@@ -1,0 +1,20 @@
+
+
+img{width: 300px; height: 700px;
+    position: fixed;
+    left: 1200px;
+    top: 40px;
+    z-index: 1;
+
+
+
+}
+
+#p{
+
+    position: absolute;
+    display: inline;
+    background-color: rgba(165, 42, 42, 0.539);
+    left: 670px;
+    top: 672px;
+}
