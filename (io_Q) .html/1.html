@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-p{ width: 500px;
-height: 300px;
-overflow: auto;
+<style>
+.a {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: red;
+  padding-left: 100px;
 }
-
-
-
-    </style>
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
 </head>
-
-
 <body>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia tempore explicabo maiores provident mollitia dolorem cum fugit totam quaerat fugiat quod ipsa ratione aliquid itaque illo autem sed obcaecati odio repellendus neque iusto. Repellat, doloremque delectus quisquam ea consectetur aperiam quia quam ab incidunt officia perspiciatis eligendi perferendis, accusamus magni nesciunt eveniet dolor molestias. Earum corporis facilis iste provident et voluptatem consequatur accusamus sapiente, recusandae ea distinctio facere quas explicabo officiis repellat possimus ipsam animi magni iure laudantium voluptatum <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Lu%C5%BEn%C3%BD_most_%2851251142984%29.jpg/1200px-Lu%C5%BEn%C3%BD_most_%2851251142984%29.jpg" alt=""> eum dolore eaque? Veritatis aperiam libero quod corporis voluptate ad ipsa laboriosam, nam earum odit expedita distinctio sapiente hic cum placeat fuga nisi non sed rem nostrum error molestiae consequatur. Dolore maiores alias eius aspernatur quis rerum, harum sapiente voluptatem ut nemo aperiam laborum, cumque fugit perspiciatis dolores explicabo nisi minus nobis repellendus? Cumque ut architecto est velit molestiae dolore culpa? Nesciunt unde iure blanditiis ea, mollitia, hic error earum doloribus vitae ducimus a similique harum natus vero sapiente deleniti illo quasi accusamus? Blanditiis accusantium quisquam officiis accusamus suscipit hic at sapiente, dolorum repudiandae libero quidem, cupiditate possimus labore excepturi eligendi est, vitae autem? Ut qui aliquam officiis eum magni totam minus cupiditate, possimus, voluptas nostrum quo debitis necessitatibus quod.</p>
+<h1>Grid Elements</h1>
 
-    
+<p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
+
+<p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+
+<div class="a">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>  
+</div>
+
 </body>
 </html>
